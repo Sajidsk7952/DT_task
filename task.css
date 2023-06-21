@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.beer-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.beer-content{
+    background-color: rgb(195, 226, 230);
+    margin: 10px 20px;
+    /* display: none; */
+    display: flex;
+    max-width: 550px;
+    max-height: 450px;
+}
+.img-box{
+    width: 150%;
+    height: 100%;
+    object-fit: cover;
+}
+.beer-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.beer-desc{
+    margin: 10px 10px;
+}
